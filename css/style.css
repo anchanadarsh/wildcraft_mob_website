@@ -1,0 +1,368 @@
+@font-face {
+    font-family: enso;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: enso;
+    color: #333;
+    background: white;
+}
+
+.wrapper {
+    width: 100%;
+/*    min-height: 700px;*/
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 0px 15px #ccc;
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.moveright {
+    left: 270px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.menus {
+    position: fixed;
+    z-index: 0;
+    width: 270px;
+    height: 480px;
+    background: #eee;
+    text-align: center;
+}
+
+.menus ul li a {
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.menus ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.menus ul {
+    padding: 0;
+    margin: 40px 0;
+}
+
+.menuicon {
+    float: left;
+    width: 50px;
+}
+
+.navbar {
+    overflow: auto;
+    background: #eee;
+}
+
+.respimg {
+    max-width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 240px;
+    padding: 5px 0 0 15px;
+}
+
+.subcat {
+    display: none;
+}
+
+.subcat li a {
+    color: #999!important;
+    font-weight: 100!important;
+}
+
+
+/*row and cols css*/
+
+.row {
+    width: 100%;
+}
+
+.col {
+    float: left;
+    max-width: 100%;
+}
+
+.col3 {
+    float: left;
+    width: 25%;
+}
+
+.col6 {
+    float: left;
+    width: 50%;
+}
+
+.col9 {
+    float: left;
+    width: 75%;
+}
+
+
+/*home css*/
+
+.shortdesc {
+    padding: 20px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+}
+
+.home {
+    overflow: auto;
+    min-width: 320px;
+    height: 180px;
+}
+
+.homepacks {
+    background: url(../img/packs.jpg);
+    background-size: cover;
+}
+
+.homewomens {
+    background: url(../img/womencover.jpg);
+    background-size: cover;
+}
+
+.homemens {
+    background: url(../img/mencover.jpg);
+    background-size: cover;
+}
+
+.homecollections {
+    background: url(../img/collection.jpg);
+    background-size: cover;
+}
+
+.proddesc h2 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.proddesc p {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100px;
+    margin: auto;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.iconimg {
+    width: 35%;
+}
+
+
+/*footer css*/
+
+.footer {
+    background: #666;
+    clear: both;
+}
+
+.footicon {
+    overflow: auto;
+    background: #333;
+    padding: 7px 0px;
+}
+
+.copyright {
+    margin-top: 1px;
+    background: #222;
+    padding: 10px 0px;
+}
+
+.copyright p {
+    margin: 0;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/*contact css*/
+
+.contactarea {
+    padding: 10px;
+    background: url(../img/blurbg2.jpg);
+    background-size: cover;
+    min-height: 480px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+input {
+    min-width: 278px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+button {
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background: white;
+    color: #333;
+/*    font-weight: 700;*/
+    letter-spacing: 1px;
+}
+
+.contactarea h1 {
+    margin-bottom: 0px;
+}
+
+.contactarea p {
+    margin: 0px;
+}
+
+
+/*shoponline css*/
+
+.onlinearea {
+    padding: 10px;
+    background: url(../img/blurbg3.jpg);
+    background-size: cover;
+    min-height: 480px;
+}
+
+.onlinearea p {
+    font-size: 16px;
+}
+
+.socialbox {
+    overflow: auto;
+}
+
+
+/*packs css*/
+
+.packsarea {
+    overflow: auto;
+    padding: 10px;
+    background-image: url('../img/packsbg.jpe');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wc_products {
+    border-radius: 5px;
+    overflow: auto;
+    width: 46%;
+    padding: 15px 0px;
+    margin: 2%;
+    background: #E6E6E6;
+    float: left;
+    box-shadow: 4px 4px 10px rgba(70, 70, 70, 0.3);
+}
+
+.wcprod_button {
+    width: 60%;
+    padding: 5px 0px;
+    margin: auto;
+    color: #c3f;
+    text-align: center;
+    border: 1px solid #C3F;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.wcprod_desc {
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.wcprod_img .respimg {
+    max-width: 80%;
+    margin: 10%;
+}
+
+.wcprod_catg {
+    padding: 10px 16px;
+    font-size: 18px;
+    background: #333;
+    color: #c3f;
+}
+
+.wcprod_subcatg {
+    overflow: auto;
+    background: #444;
+    padding: 5px 0px;
+}
+
+.wcprod_subcatg p {
+    margin: 0;
+    font-size: 10px;
+    color: #ccc;
+}
+
+.wcprod_iconimg {
+    width: 20%;
+}
+
+
+/*mens css*/
+
+.mensarea {
+    overflow: auto;
+    padding: 10px;
+    background-image: url('../img/menbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*womens css*/
+
+.womensarea {
+    overflow: auto;
+    padding: 10px;
+    background-image: url('../img/womenbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*accessories css*/
+
+.accessarea {
+    overflow: auto;
+    padding: 10px;
+    background-image: url('../img/access.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
